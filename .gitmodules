@@ -1,0 +1,15 @@
+[submodule "bouncer-rc"]
+	path = bouncer-rc
+	url = https://github.com/alexandre-huff/bouncer-rc
+[submodule "ric-plt-ric-dep"]
+	path = ric-plt-ric-dep
+	url = https://github.com/o-ran-sc/ric-plt-ric-dep
+[submodule "e2-interface"]
+	path = e2-interface
+	url = https://gerrit.o-ran-sc.org/r/sim/e2-interface
+[submodule "Energy-Saver-Tests"]
+	path = Energy-Saver-Tests
+	url = https://github.com/zanattabruno/Energy-Saver-Tests
+[submodule "kwasm-operator"]
+	path = kwasm-operator
+	url = https://github.com/KWasm/kwasm-operator
