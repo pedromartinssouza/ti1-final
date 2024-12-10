@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Dinamically generated files
+secret.yaml
+out.wasm
