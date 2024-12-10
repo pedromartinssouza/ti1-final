@@ -41,7 +41,7 @@ Before you begin, ensure you have met the following requirements:
   - [c2w/container2wasm](https://github.com/ktock/container2wasm) installed
   - [wasm-to-oci](https://github.com/engineerd/wasm-to-oci) installed and configured with access to your OCI registry
 - **Permissions**:
-  - A Classic Personal Access Token (PAT) to your GitHub package registry
+  - A classic Personal Access Token (PAT) to your GitHub package registry (which will be obtained in step 8)
 
 ## Set-up
 
@@ -309,20 +309,9 @@ With this, the WASM xApp should be deployed to the cluster. Again, it may be in 
 
 ## Related Repositories
 
-This project utilizes several other repositories that contain components essential for the deployment and functioning of the Energy Saver application. Below is a list of these repositories along with brief descriptions:
-
-- [**Energy-Saver-rApp**](https://github.com/zanattabruno/Energy-Saver-rApp): Repository for the **Energy Saver rApp**, which implements energy-efficient algorithms and interfaces with the RIC platform to optimize energy usage in 6G networks.
-
-- [**Handover XApp**](https://github.com/alexandre-huff/handover-xapp): Contains the **Handover XApp**, responsible for managing the handover processes between network cells, ensuring seamless connectivity and quality of service.
-
-- [**Monitoring XApp (Bouncer RC)**](https://github.com/alexandre-huff/bouncer-rc/tree/TNSM-24): The repository for the **Monitoring XApp**, also known as Bouncer RC. This component monitors network conditions and performance metrics, providing vital data for adaptive network management.
-
-- [**E2 Simulator (E2Sim RC)**](https://github.com/alexandre-huff/e2sim-rc/tree/TNSM-24): Repository for the **E2 Node Simulator** used in the deployment, simulating the behavior of E2 Nodes in the network to test and validate xApps and rApps.
-
-- [**RIC Platform VESPA Manager**](https://github.com/zanattabruno/ric-plt-vespamgr): An updated version of the **VESPA Manager** from the O-RAN Software Community. It manages the VES agents on the RIC platform, handling event streaming and processing.
-
-- [**VES Collector**](https://github.com/zanattabruno/ves-collector): Repository for the **VES (Virtual Event Streaming) Collector**, which collects and processes event data from various network components, facilitating analytics and decision-making processes.
-
-- [**InfluxDB Connector**](https://github.com/zanattabruno/influxdb-connector): The **InfluxDB Connector** interfaces with InfluxDB to store and retrieve time-series data for analysis, essential for monitoring network performance # TI 1 - Deploying a Monitoring xApp as a WASM instance
-[Link to Repo](https://github.com/pedromartinssouza/ti1-final)
+- [bouncer-rc](https://github.com/alexandre-huff/bouncer-rc)
+- [e2interface](https://gerrit.o-ran-sc.org/r/admin/repos/sim/e2-interface,general)
+- [ric-plt-ric-dep](https://github.com/o-ran-sc/ric-plt-ric-dep)
+- [kwasm-operator](https://github.com/KWasm/kwasm-operator)
+- [Energy-Saver-Tests](https://github.com/zanattabruno/Energy-Saver-Tests)
 
