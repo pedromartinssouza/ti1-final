@@ -1,0 +1,6 @@
+dependencies:
+- name: nearrt-ric-common
+  repository: http://localhost:6873/
+  version: 0.1.0
+digest: sha256:9bc949b883faefb10f8085b8784a41b828caa0d0639d59acf4ab176b611b68c6
+generated: "2024-11-27T21:56:49.687081473-03:00"
